@@ -7,8 +7,8 @@ import pandas as pd
 def get_binary_array(path):
     with open(path, "rb") as image:
         f = image.read()
-        b = bytes(f).hex()
-        return b
+        print(f)
+        return f
 
 
 def travers_path(start_path):
